@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	background-color: lightblue;
+}
+header{
+	background-color: lightblue;
+	margin-bottom: 10px;
+}
+h1{
+	padding: 20px 10px 10px 10px;
+	color: darkred;
+}
+header p{
+	color: brown;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+header p a{
+	text-decoration: none;
+	background-color: brown;
+	color: white;
+	padding: 5px 3px 3px 3px;
+	border-radius: 8px;
+}
+header p a:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 8px 8px 8px black;
+}
+
+main img{
+	position: relative;
+	display:flex;
+	width: 35vw;
+	border-radius: 80px;
+	
+	box-shadow: 4px 8px 2px black;
+}
+main p{
+	position: relative;
+	
+	left: 20px;
+	width: 83vw;
+	display: flex;
+}
+main h2{
+	position: relative;
+	
+	width: 80vw;
+	left: 20px;
+	color: brown;
+}
+main ul{
+	position: relative;
+	width: 83vw;
+}
+main h3{
+	position: relative;
+	width: 83vw;
+	left: 50px;
+}
+footer{
+	background-color:palegreen;
+	margin-top: 50px;
+	width: 83vw;
+}
+footer p{
+	background-color: palegreen;
+	padding: 10px 10px 5px 5px;
+	font-size: 1.5vw;
+	width: 83vw;
+}
+footer a{
+	position: relative;
+	text-decoration: none;
+	background-color: black;
+	width: 83vw;
+	margin: 20px 20px 10px 10px;
+    border-radius: 2px;
+    left: 10px;
+    color: red;
+    
+
+}
+footer a:hover{
+	background-color: white;
+	color: black;
+	cursor: help;
+}
